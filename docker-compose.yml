@@ -1,0 +1,6 @@
+services:
+  my-app:
+    build: .
+    image: my-script
+    container_name: my-app
+    restart: unless-stopped
